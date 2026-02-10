@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "npx flowise start"
+    "start": "npx flowise start --port 3000"
   },
   "dependencies": {
     "flowise": "^1.6.0"
-  },
-  "engines": {
-    "node": ">=20"
   }
 }
