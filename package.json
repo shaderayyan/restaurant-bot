@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "flowise start"
+    "start": "flowise start --port $PORT"
   },
   "dependencies": {
     "flowise": "latest"
